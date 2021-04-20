@@ -1,0 +1,28 @@
+
+
+h1 {
+  font-family: Montserrat, sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1,5;
+  }
+
+/*******CLASS-SELECTORS*******/
+
+.navbar-brand {
+  margin-left: 10px;
+}
+
+.navbar-expand-lg {
+  margin-right: 10px;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/*********ID-SELECTORS*********/
+
+#title {
+  background-color: #FF4C68;
+}
