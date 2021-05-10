@@ -1,28 +1,180 @@
-
+body {
+  font-family: Montserrat, sans-serif;
+}
 
 h1 {
   font-family: Montserrat, sans-serif;
-  font-size: 3rem;
+  font-size: 3.6rem;
   font-weight: 700;
-  line-height: 1,5;
-  }
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
 
 /*******CLASS-SELECTORS*******/
+.container-fluid {
+  padding: 3% 15% 10%;
+}
 
-.navbar-brand {
-  margin-left: 10px;
+/*********ID-SELECTORS*********/
+.title {
+  background-color: #FF4C68;
+  color: white;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 4.5rem;
 }
 
 .navbar-expand-lg {
   margin-right: 10px;
 }
 
-.container-fluid {
-  padding: 3% 15%;
+.navbar-brand {
+  font-family: Ubuntu, sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
-/*********ID-SELECTORS*********/
+.nav-item {
+  padding: 0 15px;
+}
 
-#title {
+.nav-link {
+  font-size: 1.2rem;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  width: 25%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* Features Section */
+.features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon: {
+  color: #FF4C68;
+}
+
+/* Testimonial Section */
+.testimonials {
+  text-align: center;
+  background-color: #EF8172;
+  color: #FFF;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press Section */
+.press {
+  background-color: #EF8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+.pricing {
+  padding-left: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA CALL TO ACTION SECTION */
+#cta {
   background-color: #FF4C68;
+  color: #FFF;
+  text-align: center;
+  padding: 7% 15%;
+
+}
+
+.cta-heading {
+  font-size: 3.5rem;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  line-height: 1.5;
+
+}
+
+/* Footer Section */
+
+.footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.copyright {
+  text-align: center;
+}
+
+
+@media (max-width: 1028px) {
+  .title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 70%;
+  }
 }
